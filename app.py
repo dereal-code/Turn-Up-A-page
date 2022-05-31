@@ -8,7 +8,7 @@ colors = ['#72faf1', 'ghost white', '#72fa9d', 'ghost white', '#d07ac8',
           'hot pink', 'ghost white', 'yellow',
           'ghost white', 'tomato']
 
-dir_list = os.listdir('C:/Users/Derrick/PycharmProjects/Turn Up A Page')
+dir_list = os.listdir('../Turn Up A Page')
 for element in dir_list:
     if element.endswith('.png') and element != 'pic.png':
         image_files.append(element)
