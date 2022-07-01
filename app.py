@@ -91,7 +91,7 @@ class App(Tk):
             width=8, height=2, state=DISABLED, command=self.back)
         self.homepage_button = Button(
             self.flashcard_window, text="GO TO HOMEPAGE", font="Tahoma",
-            bg="ghost white", width=50, height=2,
+            bg="ghost white", width=50, height=3,
             command=self.flashcard_window.destroy)
         self.next_button = Button(
             self.flashcard_window, text="NEXT", font="Tahoma", bg="#00a8a8",
